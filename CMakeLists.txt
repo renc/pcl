@@ -429,6 +429,7 @@ enable_testing()
 
 ### ---[ Set up for examples
 #include("${PCL_SOURCE_DIR}/cmake/pcl_examples.cmake")
+#add_subdirectory(examples) #renc
 
 ### ---[ Add the libraries subdirectories
 include("${PCL_SOURCE_DIR}/cmake/pcl_targets.cmake")
